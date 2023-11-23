@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Gummy Bears Paradise</title>
+</head>
+<body>
+
+    <header>
+        <h1>Gummy Bears Paradise!!</h1>
+        <p>Explore the chewy and colorful world of gummy bears!</p>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="#about">About</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#facts">Fun Facts</a></li>
+        </ul>
+    </nav>
+
+    <section id="about">
+        <h2>About Gummy Bears</h2>
+        <p>Gummy bears are small, fruit-flavored candies that are loved by people of all ages. They come in a variety of flavors and colors, making them a delightful treat for any occasion.</p>
+        <p>Join us on a journey to discover the magic of gummy bears!<br> The base ingredient of gummy candies is edible gelatin. It's also found in licorice, soft caramels, and marshmallows. Edible gelatin gives gummy bears their chewy texture and long shelf life.<br>Gummy bears made with bovine, porcine or piscine gelatin are not suitable for vegetarians and vegans. Those with porcine gelatin or from animals not slaughtered in either of the two contradictory ritualistic fashions do not conform to kashrut or halal dietary laws. In its factory in Turkey, Haribo produces halal bears and other sweets made with bovine gelatin. Also, some gummy bears are made with pectin or starch instead of gelatin, making them suitable for vegetarians.</p>
+    </section>
+
+    <section id="gallery">
+        <h2>Gummy Bears Gallery</h2>
+        <div class="gummy-item">
+            <img src="image10.jpg" alt="Gummy Bear 1">
+            <p>Colorful Gummy Bear</p>
+        </div>
+        <div class="gummy-item">
+            <img src="image6.jpg" alt="Gummy Bear 2">
+            <p>Flavorful Gummy Bear</p>
+        </div>
+        <div class="gummy-item">
+            <img src="image8.jpg" alt="Gummy Bear 3">
+            <p>Sweet and Sour Gummy Bear</p>
+        </div>
+    </section>
+
+    <section id="facts">
+        <h2>Fun Facts About Gummy Bears</h2>
+        <ul>
+            <li>Gummy bears were invented in Germany in the 1920s.</li>
+            <li>
+                The original gummy bears were inspired by dancing bears in street festivals.
+            </li>
+            <li>
+                Haribo is one of the most famous brands of gummy bears worldwide.    
+            </li>
+            <li>Gummy bears come in a rainbow of colors and flavors, from cherry to pineapple.
+            </li>
+            <li>
+                Did you know? Gummy bears are fat-free and a low-calorie snack!</li>
+        </ul>
+        <button onclick="revealMoreFacts()">Reveal More Facts</button>
+        <p id="moreFacts" style="display: none;">Gummy bears are a popular ingredient in creative dessert recipes. You can use them to make gummy bear popsicles, cakes, and even cocktails!</p>
+    </section>
+
+    <footer>
+        <p>2023 Gummy Bears Paradise. All rights reserved.</p>
+        <div class="social-icons">
+            <a href="#" class="icon">Facebook</a>
+            <a href="#" class="icon">Twitter</a>
+            <a href="#" class="icon">Instagram</a>
+        </div>
+        <section id="contact">
+            <h2>Contact Us / Leave a Review</h2>
+            <form>
+                <label for="name">Your Name:</label>
+                <input type="text" id="name" name="name" required>
+        
+                <label for="email">Your Email:</label>
+                <input type="email" id="email" name="email" required>
+        
+                <label for="message">Your Message:</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+        
+                <button type="submit">Submit</button>
+            </form>
+        
+    </footer>
+     <!-- Add the following HTML after your existing content -->
+
+
+    <script>
+        function revealMoreFacts() {
+            document.getElementById("moreFacts").style.display = "block";
+        }
+    </script>
+</body>
+</html>

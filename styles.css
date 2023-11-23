@@ -1,0 +1,233 @@
+
+body {
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-image: url('gummy bears background image.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    color: whitesmoke;
+    font-size: larger;
+}
+
+header, nav, section, footer {
+    padding: 20px;
+}
+
+header {
+    background-color: #ff8c00;
+    text-align: center;
+}
+
+h1, h2 {
+    color: #333;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+/* Add these styles to your existing CSS */
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+a:hover {
+    color: #ffcc00;
+    transform: translateY(-3px);
+}
+
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    position: relative;
+    transition: color 0.3s ease; 
+}
+
+nav a:hover {
+    color:pink;
+    background-color:lightseagreen;
+    transform: scale(1.1); 
+}
+
+section {
+    margin-top: 20px;
+}
+
+.gummy-item {
+    text-align: center;
+    margin-bottom: 20px;
+    position: relative;
+    overflow: hidden;
+}
+
+.gummy-item img {
+    width: 40%;
+    max-width: 30%;
+    max-height: 600px; 
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, max-height 0.3s ease; 
+}
+
+.gummy-item:hover img {
+    transform: scale(1.1);
+    max-height:fit-content; 
+}
+
+.gummy-item p {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 10px;
+    margin: 0;
+    opacity: 0;
+    transition: opacity 0.3s ease; 
+}
+
+.gummy-item:hover p {
+    opacity: 1;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+footer {
+    background-color: #333;
+    text-align: center;
+    color:goldenrod;
+    padding: 10px;
+    position: relative;
+    bottom: 0;
+}
+.social-icons {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.icon {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin: 0 15px;
+    position: relative;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.icon:hover {
+    color: #ffcc00;
+    transform: scale(1.2);
+}
+/* Add the following CSS to your existing styles */
+
+/* Add this CSS to your existing styles */
+
+#contact {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #f8f8f8; /* Set the background color */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+h2 {
+    font-family: 'Arial', sans-serif; /* Set the font family */
+    color: #333; /* Set the text color */
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+/* Add the following CSS to your existing styles */
+
+#contact {
+    text-align: center;
+    margin-top: 20px;
+    background-color: #f8f8f8; /* Set the background color */
+    padding: 20px;
+    border-radius: 8px;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin: 10px 0;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    background-color: #4CAF50; /* Change the background color */
+    color: #ffffff; /* Change the font color */
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #45a049; /* Change the background color on hover */
+}
+
+
+@media (max-width: 768px) {
+    nav {
+        text-align: center;
+    }
+
+    nav ul {
+        display: flex;
+        flex-direction: column;
+    }
+
+    nav li {
+        margin: 10px 0;
+        display: block;
+    }
+}
